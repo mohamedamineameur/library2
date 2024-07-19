@@ -1,0 +1,47 @@
+/* main.css */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #8d99ae; /* Bleu-gris */
+  color: #edf2f4; /* Blanc cassé */
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #edf2f4; /* Blanc cassé */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ef233c; /* Rouge vif */
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #8d99ae; /* Bleu-gris */
+  color: #edf2f4; /* Blanc cassé */
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+}
